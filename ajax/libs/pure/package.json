@@ -1,7 +1,7 @@
 {
   "name": "pure",
   "filename": "pure-min.css",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Pure is a ridiculously tiny CSS library you can use to start any web project.",
   "homepage": "http://purecss.io/",
   "keywords": [
@@ -19,5 +19,14 @@
     "tilomitra <tilomitra@gmail.com>",
     "msweeney <matt.sweeney@yahoo.com>",
     "jamesalley <manalagi001@yahoo.com>"
+  ],
+  "npmName": "purecss",
+  "npmFileMap": [
+    {
+      "basePath": "build",
+      "files": [
+        "**/!(*.md)"
+      ]
+    }
   ]
 }

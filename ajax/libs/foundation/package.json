@@ -1,7 +1,7 @@
 {
   "name": "foundation",
-  "filename": "foundation.min.js",
-  "version": "6.2.4",
+  "filename": "js/foundation.min.js",
+  "version": "6.3.0",
   "description": "The most advanced responsive front-end framework in the world.",
   "homepage": "http://foundation.zurb.com",
   "keywords": [
@@ -23,7 +23,7 @@
       {
         "basePath": "dist",
         "files": [
-          "**/*"
+          "**/!(*.ts)"
         ]
       }
     ]

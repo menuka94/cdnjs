@@ -922,4 +922,30 @@ describe('fixFormat - tool to fix package.json file of libraries', () => {
       expect(result).toEqual(JSON.stringify(this.packagesMock[0], null, 2) + '\n');
     });
   });
+
+  describe('When there are keys with leading underscores', () => {
+    beforeEach((done) => {
+      this.packagesMock[0]._id = 'somepackage@0.0.1';
+      this.packagesMock[0]._shasum = '9249107447ee203a753m5a497a302ab92ef7abe8';
+      this.packagesMock[0]._from = 'somepackage@latest';
+      this.packagesMock[0]._npmVersion = '2.0.0';
+
+      fixFormatFile.__set__({
+        fs: this.fsMock,
+        packages: this.packagesMock.map((pkg) => (JSON.stringify(pkg)))
+      });
+
+      fixFormatFile.fixFormat();
+      done();
+    });
+
+    it('removes keys with leading underscores', () => {
+      var result = JSON.parse(this.fsMock.writtenFile);
+
+      expect(result._id).toBeUndefined();
+      expect(result._shasum).toBeUndefined();
+      expect(result._from).toBeUndefined();
+      expect(result._npmVersion).toBeUndefined();
+    });
+  });
 });

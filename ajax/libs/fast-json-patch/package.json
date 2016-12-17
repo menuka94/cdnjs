@@ -1,7 +1,7 @@
 {
   "name": "fast-json-patch",
   "filename": "json-patch-duplex.min.js",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Fast implementation of JSON-Patch (RFC-6902) with duplex (observe changes) capabilities",
   "keywords": [
     "json",

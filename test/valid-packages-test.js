@@ -340,6 +340,15 @@ packages.map(function(pkg) {
       }
   };
 
+  packageVows[pname + ": keys with leading underscore should be removed"] = function(pkg) {
+    var json = parse(pkg, true);
+
+    for (var key in json) {
+      assert.ok(key[0] !== '_',
+                pkgName(pkg) + ": keys with leading underscore in package.json need to be removed");
+    }
+  };
+
   context[pname] = packageVows;
   suite.addBatch(context);
   return null;
