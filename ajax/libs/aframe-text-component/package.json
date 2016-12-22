@@ -1,6 +1,6 @@
 {
   "name": "aframe-text-component",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "filename": "aframe-text-component.min.js",
   "homepage": "https://ngokevin.github.io/aframe-text-component/",
   "description": "Text component for A-Frame VR.",

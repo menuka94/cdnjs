@@ -126,7 +126,7 @@ glob("ajax/libs/*/package.json", function(error, matches) {
     delete library.npmName;
     library.assets = [];
     var oldVersions = [];
-    var pkgSave;
+    var pkgSave = {};
     data.packages.forEach(function(pkg) {
       if (pkg.name === library.name) {
         oldVersions = pkg.assets.map(function(d) {
@@ -141,8 +141,35 @@ glob("ajax/libs/*/package.json", function(error, matches) {
       });
     async.each(versions, function(version, callback) {
       var temp = Object();
+      var needRefresh = false;
       temp.version = version.replace(/^.+\//, "");
-      if (oldVersions.indexOf(temp.version) === -1) {
+      var savedIndex = oldVersions.indexOf(temp.version);
+      var savedSRI;
+      var sriFiles;
+      if (Object.keys(pkgSave).length !== 0) {
+        try {
+          savedSRI = JSON.parse(fs.readFileSync('../new-website/sri/' + library.name + '/' + temp.version + '.json', 'utf8'));
+        } catch(e) {
+          savedSRI = {};
+        }
+        if (savedIndex !== -1) {
+          sriFiles = _.filter(pkgSave.assets[savedIndex].files, function(f) {
+            switch (f.split('.').pop()) {
+              case 'js':
+              case 'css':
+                return true;
+              default:
+                return false;
+            }
+          });
+          needRefresh = sriFiles.length !== Object.keys(savedSRI).length;
+          if (needRefresh) {
+            console.log(library.name + ' needs SRI update');
+          }
+        }
+      }
+      if (savedIndex === -1 || needRefresh) {
+        console.log('Processing ' + library.name + ' - v' + temp.version);
         var libSri = {};
         temp.files = glob.sync(version + "/**/*", {nodir: true});
         for (var i = 0; i < temp.files.length; i++) {
