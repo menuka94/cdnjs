@@ -2,14 +2,32 @@
   "name": "jquery-easing",
   "filename": "jquery.easing.min.js",
   "version": "1.3",
-  "description": "Additional easings for jQuery.",
+  "description": "A jQuery plugin from GSGD to give advanced easing options",
   "homepage": "http://gsgd.co.uk/sandbox/jquery/easing/",
   "keywords": [
-    "jquery",
-    "easing"
+    "jquery-plugin",
+    "ecosystem:jquery"
   ],
   "repository": {
-    "type": "plain file",
-    "url": "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
-  }
+    "type": "git",
+    "url": "https://github.com/gdsmith/jquery.easing"
+  },
+  "author": {
+    "name": "George McGinley Smith",
+    "email": "george@gsgd.co.uk",
+    "url": "http://gsgd.co.uk/"
+  },
+  "licenses": [
+    "MIT",
+    "BSD-3-Clause"
+  ],
+  "npmName": "jquery.easing",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "jquery.easing*"
+      ]
+    }
+  ]
 }

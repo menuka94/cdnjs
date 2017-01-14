@@ -1,0 +1,41 @@
+{
+  "name": "sifter",
+  "keywords": [
+    "search",
+    "filter",
+    "sift",
+    "data",
+    "results",
+    "match",
+    "sort",
+    "autocomplete"
+  ],
+  "description": "A library for textually searching arrays and hashes of objects by property (or multiple properties). Designed specifically for autocomplete.",
+  "version": "0.5.2",
+  "license": "Apache-2.0",
+  "author": "Brian Reavis <brian@thirdroute.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianreavis/sifter.js.git"
+  },
+  "dependencies": {
+    "optimist": "0.6.x",
+    "cardinal": "0.4.x",
+    "async": "0.2.x",
+    "humanize": "0.0.x",
+    "csv-parse": "^1.1.7"
+  },
+  "optionalDependencies": {
+    "microtime": "^2.1.0"
+  },
+  "npmName": "sifter",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "sifter*"
+      ]
+    }
+  ],
+  "filename": "sifter.min.js"
+}

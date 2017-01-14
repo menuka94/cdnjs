@@ -7,6 +7,7 @@ var vows = require("vows-si");
 var jsv = require("JSV").JSV.createEnvironment();
 var gitUrlParse = require("git-url-parse");
 var isThere = require("is-there");
+var libsToRun = require("./support/libsToRun")
 
 function parse(jsonFile, ignoreMissing) {
   var content;
@@ -37,7 +38,7 @@ function prettyError(err) {
 }
 
 // load up those files
-var packages = glob.sync("./ajax/libs/*/").map(function(pkg) {
+var packages = glob.sync(`./ajax/libs/${libsToRun()}/`).map(function(pkg) {
   if (!fs.lstatSync(pkg.substring(0, pkg.length - 1)).isSymbolicLink()) {
     return pkg + "package.json";
   }

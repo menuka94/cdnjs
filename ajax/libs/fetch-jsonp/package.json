@@ -1,7 +1,7 @@
 {
   "name": "fetch-jsonp",
   "filename": "fetch-jsonp.min.js",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Fetch JSONP like a boss using Fetch API",
   "keywords": [
     "fetch",

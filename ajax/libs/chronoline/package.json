@@ -1,0 +1,37 @@
+{
+  "name": "chronoline",
+  "filename": "chronoline.min.js",
+  "version": "0.1.3",
+  "description": "chronoline.js is a library for making a chronology timeline out of events on a horizontal timescale.",
+  "dependencies": {
+    "qtip2": "^2.2.0",
+    "raphael": "^2.1.0",
+    "jquery": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoicLoofah/chronoline.js.git"
+  },
+  "keywords": [
+    "timeline",
+    "raphael",
+    "chronology",
+    "history",
+    "horizontal"
+  ],
+  "author": "Kevin Leung",
+  "license": "MIT",
+  "homepage": "https://stoicloofah.github.io/chronoline.js/",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/StoicLoofah/chronoline.js.git",
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ]
+  }
+}

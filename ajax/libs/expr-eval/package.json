@@ -1,7 +1,7 @@
 {
   "name": "expr-eval",
   "filename": "bundle.min.js",
-  "version": "0.12.0",
+  "version": "1.0.0",
   "description": "Mathematical expression evaluator",
   "repository": {
     "type": "git",

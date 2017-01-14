@@ -1,7 +1,7 @@
 {
   "name": "popper.js",
   "filename": "popper.min.js",
-  "version": "0.6.4",
+  "version": "1.0.4",
   "description": "A kickass library to manage your poppers",
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "npmName": "popper.js",
   "npmFileMap": [
     {
-      "basePath": "build",
+      "basePath": "dist",
       "files": [
         "**/*"
       ]

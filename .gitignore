@@ -14,6 +14,13 @@ node_modules/
 /ajax/libs/*/*/.bot_cant_auto_add
 
 # folders need to be ingored due to auto auto-update mechanism
+/ajax/libs/trackpad-scroll-emulator/version_1.0
+/ajax/libs/date-fns/v.*
+/ajax/libs/punycode/2.0.*
+/ajax/libs/punycode/2.1.*
+/ajax/libs/clusterize.js/v.0.6.0
+/ajax/libs/tachyons/v.4.5.0
+/ajax/libs/angular-datatables/2.*
 /ajax/libs/onsen/0.6.0/
 /ajax/libs/avalon.js/2.1.16ee/
 /ajax/libs/systemjs-plugin-json/0.1.0/
@@ -35,7 +42,7 @@ node_modules/
 /ajax/libs/mobx/*fix*
 /ajax/libs/mobx/*albert*
 /ajax/libs/aui/*do-not-use/
-/ajax/libs/knockout-sortable/.0.14.0/
+/ajax/libs/knockout-sortable/v.0.14.0/
 /ajax/libs/jarallax/1.6.1_/
 /ajax/libs/bonzo/1.3.2-clone/
 /ajax/libs/juicer/0.5.*-stable
@@ -61,25 +68,27 @@ node_modules/
 /ajax/libs/typescript/*/typescriptServices.js
 /ajax/libs/typescript/2.0.6-insiders.20161017
 /ajax/libs/froala-editor/froala_editor_1.0.3/
-/ajax/libs/froala-editor/.1.0.5/
+/ajax/libs/froala-editor/v.1.0.5/
 /ajax/libs/min/1.5
 /ajax/libs/typescript/*dev*
 /ajax/libs/material-design-icons/*/gulpfile.babel.js
 /ajax/libs/jquery.alphanum/Stable_1.0
 /ajax/libs/jquery.alphanum/Stable_1.1
-/ajax/libs/fullPage.js/.2.7.5
+/ajax/libs/fullPage.js/v.2.7.5
+/ajax/libs/fullPage.js/v.2.0.1
+/ajax/libs/fullPage.js/v.2.2.8
 /ajax/libs/Turf.js/0.0.4[3-6]
-/ajax/libs/metrics-graphics/.7.0
+/ajax/libs/metrics-graphics/v.7.0
 /ajax/libs/PhysicsJS/physicsjs-*
 /ajax/libs/diva.js/RELEASE-*/
 /ajax/libs/LoadGo/1.0/
-/ajax/libs/nunjucks/.1.3.1
+/ajax/libs/nunjucks/v.1.3.1
 /ajax/libs/sbt/IBMSBT-20140312/
 /ajax/libs/angular-bootstrap-colorpicker/push/
 /ajax/libs/weather-icons/1.1endpoint
 /ajax/libs/weather-icons/1.1ghpagesendpoint
 /ajax/libs/mojio-js/oauth-token/
-/ajax/libs/jquery-datetimepicker/.1.0.1
+/ajax/libs/jquery-datetimepicker/v.1.0.1
 /ajax/libs/rangy/1.3.0-alpha.*
 /ajax/libs/rangy/1.3.0-beta.*
 /ajax/libs/tmlib.js/rsource0.1.0/
@@ -88,7 +97,7 @@ node_modules/
 /ajax/libs/angular-smart-table/help/
 /ajax/libs/atmosphere/javascript-project-*
 /ajax/libs/waypoints/latest/
-/ajax/libs/bPopup/er*
+/ajax/libs/bPopup/ver*
 /ajax/libs/bPopup/*b*
 /ajax/libs/fixed-data-table/latest/
 /ajax/libs/vibrant.js/1.0
@@ -98,8 +107,8 @@ node_modules/
 /ajax/libs/strophe.js/release-1.2.0
 /ajax/libs/raphael/semver/
 /ajax/libs/clappr/media_control_youtube/
-/ajax/libs/URI.js/.1*
-/ajax/libs/jquery.gridster/.0.4.0/
+/ajax/libs/URI.js/v.1*
+/ajax/libs/jquery.gridster/v.0.4.0/
 /ajax/libs/backbone.layoutmanager/0.0.0/
 /ajax/libs/waypoints/latest/
 /ajax/libs/device.js/0.1.16/
@@ -123,14 +132,17 @@ node_modules/
 /ajax/libs/angular-material/0.0.2-e59e064cd0e19d841e9c252f973a9eb7e87543a2/
 /ajax/libs/deck.js/latest/
 /ajax/libs/jasmine/list/
-/ajax/libs/underscore.string/.*
+/ajax/libs/underscore.string/v.1.1.3
+/ajax/libs/underscore.string/v.2.0.0
+/ajax/libs/underscore.string/v.2.1.1
+/ajax/libs/underscore.string/v.2.2.0rc
 /ajax/libs/jsxgraph/RELEASE*
 /ajax/libs/jsxgraph/skm*
 /ajax/libs/jsxgraph/sketchometry*
 /ajax/libs/mojio-js/robb/
 /ajax/libs/lodash.js/*-es
 /ajax/libs/lodash.js/*-npm
-/ajax/libs/flexslider/ersion
+/ajax/libs/flexslider/version
 /ajax/libs/bean/1.0.0a1/
 /ajax/libs/codemirror/3.11.01/
 /ajax/libs/codemirror/3.12.00/
@@ -151,7 +163,8 @@ node_modules/
 /ajax/libs/nuclear-js/show
 /ajax/libs/aws-sdk/*/appinfo.sample.js
 /ajax/libs/winjs/release
-/ajax/libs/plottable.js/.0.18.0
+/ajax/libs/plottable.js/v.0.18.0
+/ajax/libs/plottable.js/v.2.4.1
 /ajax/libs/plottable.js/*-hover-tooltip*
 /ajax/libs/jQRangeSlider/latest/
 /ajax/libs/material-design-icons/2.0
@@ -161,9 +174,9 @@ node_modules/
 /ajax/libs/ng-pdfviewer/r0.1.0/
 /ajax/libs/ng-pdfviewer/r0.2.0/
 /ajax/libs/ng-pdfviewer/r0.2.1/
-/ajax/libs/prettyCheckable/.2.1.1/
+/ajax/libs/prettyCheckable/v.2.1.1/
 /ajax/libs/Hyphenator/HyphenatorBeta12/
-/ajax/libs/Hyphenator/ersion_*
+/ajax/libs/Hyphenator/Version_*
 /ajax/libs/gemma/0.1.0/
 /ajax/libs/gemma/0.4.0/
 /ajax/libs/origamijs/0.0.2/
@@ -172,6 +185,8 @@ node_modules/
 /ajax/libs/react-data-grid/*-*/
 !ajax/libs/react-data-grid/*-alpha*/
 /ajax/libs/react-data-grid/*-dm*/
+/ajax/libs/jquery-easing/1.3.0/
+/ajax/libs/jquery-easing/1.3.1/
 
 #ignore files that we don't need
 /ajax/libs/*/*/**/Gruntfile.js
@@ -208,6 +223,5 @@ node_modules/
 /ajax/libs/*/*/**/*.sublime-*
 /ajax/libs/*/*/**/*.md
 /ajax/libs/*/*/**/*.markdown
-/ajax/libs/*/*/**/*.json
 /ajax/libs/*/*/**/*.ts
 /ajax/libs/*/*/**/*.flow

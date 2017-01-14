@@ -1,7 +1,7 @@
 {
   "name": "tweenjs",
   "filename": "tweenjs.min.js",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "TweenJS is a Javascript library for tweening and animating HTML5 and Javascript properties.",
   "homepage": "http://www.createjs.com/#!/TweenJS",
   "keywords": [

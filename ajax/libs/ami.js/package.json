@@ -10,7 +10,7 @@
     }
   ],
   "filename": "ami.min.js",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "AMI Medical Imaging (AMI) JS ToolKit for THREEJS",
   "keywords": [
     "ami",

@@ -1,7 +1,7 @@
 {
   "name": "inferno",
   "filename": "inferno.min.js",
-  "version": "0.7.27",
+  "version": "1.1.2",
   "license": "MIT",
   "description": "An extremely fast, isomorphic JavaScript library for building modern user interfaces",
   "author": {
@@ -32,7 +32,7 @@
     {
       "basePath": "dist",
       "files": [
-        "**/!(*.orig)"
+        "**/!(*.orig|*.node.*)"
       ]
     }
   ]

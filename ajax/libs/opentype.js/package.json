@@ -1,6 +1,6 @@
 {
   "name": "opentype.js",
-  "version": "0.6.6",
+  "version": "0.6.8",
   "filename": "opentype.min.js",
   "description": "OpenType font parser",
   "keywords": [

@@ -1,7 +1,7 @@
 {
   "name": "waud.js",
   "filename": "waud.min.js",
-  "version": "0.8.2",
+  "version": "0.9.5",
   "description": "Web Audio Library",
   "repository": {
     "type": "git",

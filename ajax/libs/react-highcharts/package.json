@@ -1,6 +1,6 @@
 {
   "name": "react-highcharts",
-  "version": "11.0.0",
+  "version": "11.5.0",
   "description": "React wrapper for highcharts",
   "author": {
     "name": "Kirill Cherkashin"

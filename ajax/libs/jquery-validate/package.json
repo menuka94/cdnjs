@@ -21,7 +21,13 @@
       {
         "basePath": "dist",
         "files": [
-          "*"
+          "**/*"
+        ]
+      },
+      {
+        "basePath": "src",
+        "files": [
+          "localization/**/*"
         ]
       }
     ]

@@ -10,7 +10,7 @@
     }
   ],
   "description": "SQL query string builder",
-  "version": "5.5.0",
+  "version": "5.6.0",
   "filename": "squel.min.js",
   "author": {
     "name": "Ramesh Nair",

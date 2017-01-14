@@ -10,12 +10,12 @@
     {
       "basePath": "dist",
       "files": [
-        "*.js"
+        "!(*.flow)"
       ]
     }
   ],
   "name": "moment-range",
-  "version": "2.2.0",
+  "version": "3.0.0-0",
   "description": "Fancy date ranges for Moment.js",
   "filename": "moment-range.min.js",
   "keywords": [

@@ -1,6 +1,6 @@
 {
   "name": "what-input",
-  "version": "2.1.1",
+  "version": "4.0.4",
   "filename": "what-input.min.js",
   "description": "A global utility for tracking the current input method (mouse, keyboard or touch).",
   "repository": {
@@ -21,9 +21,9 @@
   "npmName": "what-input",
   "npmFileMap": [
     {
-      "basePath": "",
+      "basePath": "dist",
       "files": [
-        "what-input*"
+        "**/what-input*"
       ]
     }
   ]

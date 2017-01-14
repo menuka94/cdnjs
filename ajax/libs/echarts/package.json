@@ -1,7 +1,7 @@
 {
   "name": "echarts",
   "description": "A powerful charting and visualization library for browser",
-  "version": "3.3.2",
+  "version": "3.4.0",
   "filename": "echarts.min.js",
   "dependencies": {
     "zrender": "~2.0.6"

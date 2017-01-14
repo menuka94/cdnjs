@@ -1,7 +1,7 @@
 {
   "name": "pdfmake",
   "filename": "pdfmake.min.js",
-  "version": "0.1.20",
+  "version": "0.1.24",
   "homepage": "https://bpampuch.github.io/pdfmake",
   "description": "Client/server side PDF printing in pure JavaScript",
   "keywords": [

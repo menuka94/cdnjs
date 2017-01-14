@@ -211,6 +211,9 @@ function fixFormat() {
   }
 
   function fixFilenameField(pkg) {
+    if (!pkg.filename) {
+      return;
+    }
     var orig = pkg.filename.split('.');
     var min = '';
     if (orig[orig.length - 2] !== 'min') {

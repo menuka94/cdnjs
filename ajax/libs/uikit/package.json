@@ -17,14 +17,12 @@
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/uikit/bower-uikit.git",
+    "target": "git://github.com/uikit/uikit.git",
     "fileMap": [
       {
-        "basePath": "",
+        "basePath": "dist",
         "files": [
-          "css/**/*",
-          "js/**/*",
-          "fonts/*"
+          "**/*"
         ]
       }
     ]
